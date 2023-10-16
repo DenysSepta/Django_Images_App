@@ -1,0 +1,7 @@
+Django
+djangorestframework
+Pillow
+django-filter
+django-storages
+boto3  # if you plan to use AWS S3 for storing images
+locust # used for perfomance test
