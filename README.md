@@ -25,14 +25,17 @@ A web application built with Django for uploading and managing images. The appli
 
 
 2. Install the dependencies:
+    ```sh
     pip install -r requirements.txt
 
 3. Apply migrations:
 
+    ```sh
     python manage.py migrate
 
 4. Run the development server:
 
+    ```sh
     python manage.py runserver
 
 5. Open a web browser and navigate to http://localhost:8000.
@@ -43,12 +46,12 @@ A web application built with Django for uploading and managing images. The appli
 1. Clone the repository:
 
   
-
-git clone <REPO-URL>
-cd <PROJECT-DIRECTORY>
+   ```sh
+   git clone <REPO-URL>
+   cd <PROJECT-DIRECTORY>
 
 2. Build and run the Docker containers:
-
+   ```sh
     docker-compose build
     docker-compose up
 
@@ -58,8 +61,9 @@ cd <PROJECT-DIRECTORY>
 
 1. Run the following command to execute the test suite:
 
-
-python manage.py test
+   ```sh
+   python manage.py test
 
 2. Run the following command to execute the performance test
-    python USERNAME=your_username PASSWORD=your_password locust -f performance_test.py
+   ```sh
+   python USERNAME=your_username PASSWORD=your_password locust -f performance_test.py
