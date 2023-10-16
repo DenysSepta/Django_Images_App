@@ -47,8 +47,10 @@ A web application built with Django for uploading and managing images. The appli
 
   
    ```sh
-   git clone <REPO-URL>
-   cd <PROJECT-DIRECTORY>
+   git clone https://github.com/DenysSepta/Django_Images_App
+   cd Django_IMG
+
+
 
 2. Build and run the Docker containers:
    ```sh
